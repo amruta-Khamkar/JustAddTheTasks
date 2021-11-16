@@ -2,86 +2,33 @@
   "Cred": [
     {
       "id": 1,
-      "email": "didi",
-      "pass": "didi",
-      "fName": "didi",
-      "lName": "didi",
-      "uName": "didi",
-      "tasks": [
-        {
-          "title": "sgdfxd",
-          "priority": "55"
-        }
-      ],
-      "cPass": "didi"
+      "email": "amrutakhamkar15@gmail.com",
+      "pass": "U2FsdGVkX1+Z3KxeaoFIKWD8U0DX35YU7aK+viXfSPk=",
+      "fName": "Amruta",
+      "lName": "Khamkar",
+      "uName": "mom",
+      "tasks": [],
+      "cPass": "U2FsdGVkX1+Z3KxeaoFIKWD8U0DX35YU7aK+viXfSPk="
     },
     {
       "id": 2,
-      "email": "amrutakhamkar15@gmail.com",
-      "pass": "dodo",
-      "fName": "खामकर",
-      "lName": "लक्ष्मण",
-      "uName": "a",
-      "tasks": [
-        {
-          "title": "drh",
-          "priority": "5"
-        }
-      ],
-      "cPass": "dodo"
+      "email": "mom07@gmail.com",
+      "pass": "U2FsdGVkX19bQRaWhrcS9uCC/rWLYWiY1K7H32F7GUs=",
+      "fName": "mom",
+      "lName": "m",
+      "uName": "mom",
+      "tasks": [],
+      "cPass": "U2FsdGVkX19bQRaWhrcS9uCC/rWLYWiY1K7H32F7GUs="
     },
     {
-      "id": 3,
-      "email": "dad",
-      "pass": "dad",
-      "fName": "dad",
-      "lName": "dad",
-      "uName": "dad",
-      "tasks": [
-        {
-          "title": "egte",
-          "priority": "5"
-        }
-      ],
-      "cPass": "dad"
-    },
-    {
-      "id": 4,
-      "email": "dada",
-      "pass": "mom",
-      "fName": "dada",
-      "lName": "dada",
-      "uName": "dada",
-      "tasks": [
-        {
-          "title": "<strike> ete</strike>",
-          "priority": "4"
-        }
-      ],
-      "cPass": "mom"
-    },
-    {
-      "id": 5,
-      "email": "amrutakhamkar15@gmail.com",
-      "pass": "priya",
-      "fName": "priyanka mam",
-      "lName": "priyanka ",
-      "uName": "rana",
-      "tasks": [
-        {
-          "title": " team call",
-          "priority": "5"
-        },
-        {
-          "title": " sdgdgd",
-          "priority": "4"
-        },
-        {
-          "title": "<strike> sgsg</strike>",
-          "priority": "3"
-        }
-      ],
-      "cPass": "priya"
+      "fName": "sgsgg",
+      "lName": "ggssg",
+      "uName": "sgs",
+      "email": "amruta15@gmail.com",
+      "pass": "U2FsdGVkX19kof+yQM/eWiW3fKuhTAtZuFtQTS/pMgk=",
+      "cPass": "U2FsdGVkX19kof+yQM/eWiW3fKuhTAtZuFtQTS/pMgk=",
+      "tasks": [],
+      "id": 3
     }
   ]
 }

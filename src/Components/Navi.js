@@ -16,7 +16,7 @@ import MoreIcon from '@mui/icons-material/MoreVert';;
 class Navi extends Component {
   constructor(props) {
     super(props);
-    this.state = ({ isLogOut: 0,clickChange:0 ,home:0})
+    this.state = ({ isLogOut: 0,clickChange:0 ,home:0,post:0})
   }
 
   logOut = () => {
@@ -31,6 +31,9 @@ class Navi extends Component {
   home=()=>{
       this.setState({home:1})
   }
+  post=()=>{
+    this.setState({post:1})
+  }
   render() {
     if (this.state.isLogOut == 1) {
       return <Redirect to="/" />
@@ -41,9 +44,13 @@ class Navi extends Component {
     else if (this.state.home==1){
       return <Redirect to="/home"/>
     }
+    else if(this.state.post==1){
+      return <Redirect to="/post"/>
+    }
     return (
       <>
         <Router>
+        {console.log("Nav")}
           <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">
               <Toolbar sx={{ backgroundColor: "black" }}>
@@ -61,6 +68,9 @@ class Navi extends Component {
 
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1, cursor: "pointer" }}>
                   <Link  to="/changePass"  style={{color:"white",textDecoration:"none"}} onClick={this.change} > Change Password </Link>
+                </Typography> 
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1, cursor: "pointer" }}>
+                  <Link  to="/post"  style={{color:"white",textDecoration:"none"}} onClick={this.post} > posts </Link>
                 </Typography> 
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1, cursor: "pointer" }}>
 
